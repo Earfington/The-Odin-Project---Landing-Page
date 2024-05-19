@@ -1,0 +1,1 @@
+My attempt at creating The Odin Projects landing page

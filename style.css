@@ -3,7 +3,6 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-
 }
 
 ul{
@@ -16,6 +15,11 @@ ul{
     border: solid red 1px;
 }
 
+.header-hero-container{
+    background-color: #1f2937;
+
+}
+
 .header{
     display: flex;
     flex: 1;
@@ -23,16 +27,21 @@ ul{
     background-color: #1f2937;
     color: #f9faf8;
     padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 50px;
+}
+
+.header-logo{
+    display: flex;
+    margin-left: auto;
 }
 
 .header-links{
     display: flex;
-    margin-left: auto;
     justify-content: center;
     align-items: center;
-    padding-right: 150px;
-    
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -42,14 +51,22 @@ ul{
     display: flex;
     flex-direction: row;
     padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 
-.left-side{
+.hero-left-side{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.hero-right-side{
+    margin-right: auto;
+}
+
 
 .awesome{
     font-size: 48px;
@@ -74,7 +91,69 @@ ul{
     border-radius: 8px;
 }
 
-.right-side{
+
+.random-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-header{
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.square-img{
+    display: flex;
+    flex-wrap: wrap;
+    border: #3882f6 2px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;  
+    background-color: #e5e7eb;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
     margin-left: auto;
-    margin-right: 150px;
+    margin-right: auto;
+}
+
+.quotee{
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

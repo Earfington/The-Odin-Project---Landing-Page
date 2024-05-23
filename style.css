@@ -11,13 +11,14 @@ ul{
     list-style-type: none;
 }
 
-*{
-    border: solid red 1px;
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
 }
 
 .header-hero-container{
     background-color: #1f2937;
-
 }
 
 .header{
@@ -29,6 +30,7 @@ ul{
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .header-logo{
@@ -53,6 +55,7 @@ ul{
     padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
+    flex-wrap: wrap;
 }
 
 
@@ -85,8 +88,6 @@ ul{
 
 .left-button{
     width: 100px;
-    background-color: #3882f6;
-    color: white;
     line-height: 30px;
     border-radius: 8px;
 }
@@ -107,6 +108,7 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .img-info-container{
@@ -141,6 +143,7 @@ ul{
     padding-right: 150px;
     padding-bottom: 50px;
     padding: 100px;
+    flex-wrap: wrap;
 }
 
 .quote{
@@ -156,4 +159,46 @@ ul{
     font-weight: bolder;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.CTO-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 150px;
+}
+
+.CTO{
+    display: flex;
+    background-color: #3882f6;
+    padding: 80px;
+    border-radius: 8px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.CTO-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.CTO-right{
+    border-color: white;
+    width: 100px;
+    line-height: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 50px;
+    display: block;
 }
